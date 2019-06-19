@@ -1,13 +1,14 @@
-nav.navbar.center.navbar-expand-lg
-  .container.flex-lg-column
+nav.navbar.wide.transparent.transparent-light.absolute.navbar-expand-lg
+  .container-fluid.flex-row.justify-content-center
     .navbar-header
       .navbar-brand
-        = link_to root_path do
-          img src="#" srcset="/assets/logo.png 1x, /assets/logo@2x.png 2x" alt=""
+        a href="index.html"
+          img src="#" srcset="/assets/logo2.png 1x, /assets/logo2@2x.png 2x" alt=""
       .navbar-hamburger.ml-auto.d-lg-none.d-xl-none
         button.hamburger.animate data-toggle="collapse" data-target=".navbar-collapse"
-    .navbar-collapse.collapse.w-100.bg-light
-      ul.navbar-nav.nav-fill.w-100
+
+    .navbar-collapse.collapse.justify-content-between.align-items-center
+      ul.navbar-nav.plain.mx-auto.text-center
         li.nav-item
           = link_to t('.menu.home'), root_path, class: 'nav-link'
         li.nav-item
@@ -31,6 +32,7 @@ nav.navbar.center.navbar-expand-lg
               a.dropdown-item href="javascript:void(0)" Video Album
             li.nav-item
               a.dropdown-item href="javascript:void(0)" Photo Album
+        
         li.nav-item.dropdown
           a.nav-link.dropdown-toggle href="javascript:void(0)" Gallery
           ul.dropdown-menu
@@ -59,6 +61,7 @@ nav.navbar.center.navbar-expand-lg
                   a.dropdown-item href="javascript:void(0)" Post with Lightbox
                 li.nav-item
                   a.dropdown-item href="javascript:void(0)" Post with Thumbnail Slider
+        
         li.nav-item.dropdown
           a.nav-link.dropdown-toggle href="javascript:void(0)" Pages
           ul.dropdown-menu
@@ -70,6 +73,7 @@ nav.navbar.center.navbar-expand-lg
               a.dropdown-item href="javascript:void(0)" Services
             li.nav-item
               a.dropdown-item href="javascript:void(0)" Page Loading
+        
         li.nav-item.dropdown
           a.nav-link.dropdown-toggle href="javascript:void(0)" Blog
           ul.dropdown-menu
@@ -92,6 +96,7 @@ nav.navbar.center.navbar-expand-lg
                   a.dropdown-item href="javascript:void(0)" Post with Sidebar
                 li.nav-item
                   a.dropdown-item href="javascript:void(0)" Post with Box Style
+        
         li.nav-item.dropdown
           a.nav-link.dropdown-toggle href="javascript:void(0)" Features
           ul.dropdown-menu
@@ -116,6 +121,7 @@ nav.navbar.center.navbar-expand-lg
                   a.dropdown-item href="javascript:void(0)" Light Wide
                 li.nav-item
                   a.dropdown-item href="javascript:void(0)" Dark Wide
+            
             li.nav-item.dropdown
               a.dropdown-item.dropdown-toggle href="javascript:void(0)" Slider
               ul.dropdown-menu
@@ -151,6 +157,7 @@ nav.navbar.center.navbar-expand-lg
                   a.dropdown-item href="javascript:void(0)" Flickity - Fullwidth Carousel
                 li.nav-item
                   a.dropdown-item href="javascript:void(0)" Flickity - Fullscreen View
+            
             li.nav-item.dropdown
               a.dropdown-item.dropdown-toggle href="javascript:void(0)" Footer
               ul.dropdown-menu
@@ -162,6 +169,7 @@ nav.navbar.center.navbar-expand-lg
                   a.dropdown-item href="javascript:void(0)" Footer III
                 li.nav-item
                   a.dropdown-item href="javascript:void(0)" Footer IV
+            
             li.nav-item.dropdown
               a.dropdown-item.dropdown-toggle href="javascript:void(0)" Fonts
               ul.dropdown-menu
@@ -179,6 +187,7 @@ nav.navbar.center.navbar-expand-lg
                   a.dropdown-item href="javascript:void(0)" Abhaya Libre
                 li.nav-item
                   a.dropdown-item href="javascript:void(0)" Quattrocento & Unica One
+            
             li.nav-item.dropdown
               a.dropdown-item.dropdown-toggle href="javascript:void(0)" Colors
               ul.dropdown-menu
@@ -214,6 +223,7 @@ nav.navbar.center.navbar-expand-lg
                   a.dropdown-item href="javascript:void(0)" Violet
                 li.nav-item
                   a.dropdown-item href="javascript:void(0)" Yellow
+            
             li.nav-item.dropdown
               a.dropdown-item.dropdown-toggle href="javascript:void(0)" Onepage
               ul.dropdown-menu
@@ -221,8 +231,10 @@ nav.navbar.center.navbar-expand-lg
                   a.dropdown-item href="javascript:void(0)" Demo I
                 li.nav-item
                   a.dropdown-item href="javascript:void(0)" Demo II
+            
             li.nav-item
-              a.dropdown-item href="javascript:void(0)" Box Layout
+              a.dropdown-item" href="javascript:void(0)">Box Layout
+        
         li.nav-item
           a.nav-link href="javascript:void(0)" Elements
           ul.dropdown-menu.mega-menu.boxed.list-view.text-left
@@ -307,6 +319,7 @@ nav.navbar.center.navbar-expand-lg
                                 a href="javascript:void(0)" Typography
                               li
                                 a href="javascript:void(0)" Wrappers
+        
         li.nav-item.dropdown
           a.nav-link.dropdown-toggle href="javascript:void(0)" Contact
           ul.dropdown-menu
@@ -316,3 +329,17 @@ nav.navbar.center.navbar-expand-lg
               a.dropdown-item href="javascript:void(0)" Contact II
             li.nav-item
               a.dropdown-item href="javascript:void(0)" Contact III
+    .social-wrapper.text-right
+      ul.social.social-mute.social-s.mb-0
+        li
+          a href="javascript:void(0)"
+            i.fa.fa-twitter
+        li
+          a href="javascript:void(0)"
+            i.fa.fa-facebook-f
+        li
+          a href="javascript:void(0)"
+            i.fa.fa-vimeo
+        li
+          a href="javascript:void(0)"
+            i.fa.fa-instagram

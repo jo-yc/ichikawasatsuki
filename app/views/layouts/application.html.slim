@@ -10,6 +10,10 @@ html
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   body
-    = render 'common/header'
-    = yield
-    = render 'common/footer'
+    .content-wrapper
+      - if controller.controller_name.to_sym == :home
+        = render 'common/home_header'
+      - else
+        = render 'common/header'
+      = yield
+      = render 'common/footer'
