@@ -1,0 +1,38 @@
+template#contact-component
+  .form-container
+    form
+      .row
+        .col-md-6.pr-10
+          .form-group
+            input.form-control :class="{'form-danger': errors.has('name')}" v-validate="'required'" data-vv-name="name" v-model="name" type="text" name="name" placeholder="#{t('.placeholder.name')}"
+        .col-md-6.pl-10
+          .form-group
+            input.form-control :class="{'form-danger': errors.has('email')}" v-validate="'required|email'" data-vv-name="email" v-model="email" type="email" name="email" placeholder="#{t('.placeholder.email')}"
+        .col-12
+          .form-group
+            datetime :input-class="{'form-danger': errors.has('date')}" v-model="date" type="datetime" minute-step="5" week-start="7" min-datetime="#{DateTime.iso8601(DateTime.now.to_s)}" v-validate="'required'" data-vv-name="date" placeholder="#{t('.placeholder.date')}"
+        .col-12
+          .form-group
+            .custom-control.custom-checkbox.custom-control-inline v-for="(item, val) in defaultShootingItems"
+              input.custom-control-input v-validate="'required'" data-vv-name="shootingItems" :id="'item-' + item" :value="val" v-model="shootingItems" type="checkbox"
+              label.custom-control-label :class="{'form-danger': errors.has('shootingItems')}" :for="'item-' + item"
+                | {{item}}
+        .col-12
+          .form-group
+            input.form-control type="text" :class="{'form-danger': errors.has('place')}" v-validate="'required'" data-vv-name="place" name="place" v-model="place" placeholder="#{t('.placeholder.place')}"
+        .col-12
+          textarea.form-control.pt-10 name="message" :class="{'form-danger': errors.has('message')}" v-validate="'required'" data-vv-name="message" rows="3" v-model="message" placeholder="#{t('.placeholder.message')}"
+        .col-12
+          .form-group
+            .custom-control.custom-checkbox
+              input#privacyPolicy.custom-control-input v-validate="'required'" data-vv-name="privacyPolicy" v-model="privacyPolicy" type="checkbox"
+              label.custom-control-label :class="{'form-danger': errors.has('privacyPolicy')}" for="privacyPolicy"
+                = t('.privacy_policy').html_safe
+        .space20
+        .col-12 v-if="notice"
+          .alert.alert-success role="alert"
+            | {{notice}}
+        .col-12.text-center
+          button.btn :class="{'state-error': errors.has('name') || errors.has('email') || errors.has('shooting_items') || errors.has('place') || errors.has('message') || errors.has('privacy_policy')}" type="button" @click="sendContact"
+            | {{btnText}}
+        footer.notification-box

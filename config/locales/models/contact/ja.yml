@@ -1,0 +1,11 @@
+ja:
+  activerecord:
+    attributes:
+      contact_form:
+        name: 名前
+        email: メールアドレス
+        date: 日程
+        shooting_items: 撮影内容
+        place: 撮影予定場所
+        message: メッセージ
+        privacy_policy: プライバシーポリシー
