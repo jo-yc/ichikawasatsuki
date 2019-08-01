@@ -1,10 +1,13 @@
 ja:
-  common:
-    home_header:
-      menu:
-        home: ホーム
-        about: About
-    header:
-      menu:
-        home: ホーム
-        about: About
+  views:
+    common:
+      sent_a_message: お問い合わせを送信しました。
+      shooting_items:
+        wedding: ウェディング・エンゲージメント
+        family: ファミリー
+        maternity: マタニティ
+        new_born: ニューボーン
+        profile: プロフィール
+        business: ビジネス
+        event: イベント・公演
+        etc: その他

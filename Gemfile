@@ -43,6 +43,7 @@ group :development, :test do
   gem 'pry-rails'
   # gem 'pry-byebug'
   gem 'pry-remote'
+  gem 'letter_opener_web'
 end
 
 group :development do
@@ -67,3 +68,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Customize
 gem 'slim-rails'
+gem 'figaro'
+gem 'webpacker'
+gem 'virtus'

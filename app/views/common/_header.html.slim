@@ -307,12 +307,5 @@ nav.navbar.center.navbar-expand-lg
                                 a href="javascript:void(0)" Typography
                               li
                                 a href="javascript:void(0)" Wrappers
-        li.nav-item.dropdown
-          a.nav-link.dropdown-toggle href="javascript:void(0)" Contact
-          ul.dropdown-menu
-            li.nav-item
-              a.dropdown-item href="javascript:void(0)" Contact I
-            li.nav-item
-              a.dropdown-item href="javascript:void(0)" Contact II
-            li.nav-item
-              a.dropdown-item href="javascript:void(0)" Contact III
+        li.nav-item
+          = link_to t('.menu.contact'), contact_path, class: 'nav-link'

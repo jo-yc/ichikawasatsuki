@@ -1,0 +1,21 @@
+- content_for :vue_template do
+  = render 'components/contact/contact_component'
+
+.wrapper.light-wrapper
+  .container.inner.pt-70
+    .row
+      .col-lg-8.offset-lg-2
+        h2.section-title.text-center
+          = t '.title'
+        p.text-center
+          = t '.description'
+        .space20
+        #contact
+          contact-component[
+            ajax-path="#{contact_path}"
+            get-data-ajax-path="#{connect_contact_path}"
+            btn-default-msg="#{t('.btn.default_message')}"
+            btn-processing-msg="#{t('.btn.processing_message')}"
+            btn-sent-msg="#{t('.btn.sent_message')}"
+            btn-error-msg="#{t('.btn.error_message')}"
+          ]

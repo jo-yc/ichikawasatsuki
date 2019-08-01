@@ -1,0 +1,10 @@
+ja:
+  contact:
+    show:
+      title: お問い合わせ
+      description: 名前、メールアドレス、希望する日程、撮影内容、撮影予定場所、フォトグラファーへのメッセージを入力した上、「送信」ボタンをクリックしてください。
+      btn:
+        default_message: 送信
+        processing_message: 送信中...
+        sent_message: 送信完了
+        error_message: エラー...

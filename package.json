@@ -1,5 +1,17 @@
 {
   "name": "ichikawasatsuki",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "@rails/webpacker": "^4.0.7",
+    "luxon": "^1.16.0",
+    "vee-validate": "^2.2.11",
+    "vue": "^2.6.10",
+    "vue-ctk-date-time-picker": "^2.1.1",
+    "vue-datetime": "^1.0.0-beta.10",
+    "vue-resource": "^1.5.1",
+    "weekstart": "^1.0.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.7.2"
+  }
 }

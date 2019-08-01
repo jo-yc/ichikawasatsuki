@@ -1,0 +1,11 @@
+ja:
+  activerecord:
+    attributes:
+      contact_form:
+        name: Name
+        email: Email
+        date: Date
+        shooting_items: Shooting items
+        place: Place
+        message: Message
+        privacy_policy: Privacy policy

@@ -1,8 +1,13 @@
 en:
-  common:
-    home_header:
-      home: Home
-      about: About
-    header:
-      home: Home
-      about: About
+  views:
+    common:
+      sent_a_message: Your inquiry has been successfully sent!
+      shooting_items:
+        wedding: Wedding&Engage
+        family: Family
+        maternity: Maternity
+        new_born: New born
+        profile: Profile
+        business: Business
+        event: Event&Concert
+        etc: Etc

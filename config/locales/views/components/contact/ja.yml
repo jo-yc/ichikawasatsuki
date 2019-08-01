@@ -1,0 +1,11 @@
+ja:
+  components:
+    contact:
+      contact_component:
+        placeholder:
+          name: 名前を入力してください
+          email: メールアドレスを入力してください
+          date: 撮影日を入力してください
+          place: 撮影予定場所を入力してください
+          message: メッセージを入力してください
+        privacy_policy: <a href="javascript:void(0)">プライバシーポリシー</a>が適用されます
