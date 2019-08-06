@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   resource :contact, controller: :contact, only: [:show, :create, :update] do
     get :connect, on: :collection
   end
+  resources :gallery, controller: :gallery, only: [:index, :show]
 
   mount LetterOpenerWeb::Engine, at: "/letter_opener" if Rails.env.development?
 end
