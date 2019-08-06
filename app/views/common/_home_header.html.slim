@@ -34,33 +34,7 @@ nav.navbar.wide.transparent.transparent-light.absolute.navbar-expand-lg
               a.dropdown-item href="javascript:void(0)" Photo Album
         
         li.nav-item.dropdown
-          a.nav-link.dropdown-toggle href="javascript:void(0)" Gallery
-          ul.dropdown-menu
-            li.nav-item
-              a.dropdown-item href="javascript:void(0)" Polaroid Style
-            li.nav-item
-              a.dropdown-item href="javascript:void(0)" List Type
-            li.nav-item
-              a.dropdown-item href="javascript:void(0)" Three Columns
-            li.nav-item
-              a.dropdown-item href="javascript:void(0)" Titled Gallery
-            li.nav-item
-              a.dropdown-item href="javascript:void(0)" Lightbox - Three Column Grid
-            li.nav-item
-              a.dropdown-item href="javascript:void(0)" Lightbox - Two Column Grid
-            li.nav-item
-              a.dropdown-item href="javascript:void(0)" Lightbox - Fullscreen Grid
-            li.nav-item.dropdown
-              a.dropdown-item.dropdown-toggle href="javascript:void(0)" Gallery Posts
-              ul.dropdown-menu
-                li.nav-item
-                  a.dropdown-item href="javascript:void(0)" Post with Carousel
-                li.nav-item
-                  a.dropdown-item href="javascript:void(0)" Post with Images
-                li.nav-item
-                  a.dropdown-item href="javascript:void(0)" Post with Lightbox
-                li.nav-item
-                  a.dropdown-item href="javascript:void(0)" Post with Thumbnail Slider
+          = link_to t('.menu.gallery'), gallery_index_path, class: 'nav-link'
         
         li.nav-item.dropdown
           a.nav-link.dropdown-toggle href="javascript:void(0)" Pages

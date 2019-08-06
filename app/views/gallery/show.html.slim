@@ -1,0 +1,39 @@
+.wrapper.light-wrapper
+  .container.inner.pt-70.text-center
+    h1.post-title
+      =t ".categories.#{@category}"
+    p Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna.
+    .space30
+    #cube-grid.cbp.light-gallery
+      - Dir.glob("app/assets/images/art/#{@category}/*").each do |filepath|
+        - new_filepath = filepath.split('app').last.split('images/').join
+        .cbp-item
+          figure.overlay.overlay3.rounded
+            a href="#{new_filepath}"
+              img src="#{new_filepath}" alt=""
+.wrapper.gray-wrapper
+  .container.inner.text-center
+    h2.section-title.mb-40.text-center Share the Work
+    a.btn.btn-icon.btn-icon-left.shadow.share-facebook href="#"
+      i.fa.fa-facebook
+      | Share It
+    a.btn.btn-icon.btn-icon-left.shadow.share-twitter href="#"
+      i.fa.fa-twitter
+      | Tweet It
+    a.btn.btn-icon.btn-icon-left.shadow.share-pinterest href="#"
+      i.fa.fa-pinterest
+      | Pin It
+.wrapper.light-wrapper
+  .container.inner
+    h2.section-title.text-center Other Galleries
+    .cube-carousel.cbp.boxed.grid-view.text-center
+      - GALLERY_CATEGORIES.each do |category|
+        .cbp-item
+          .box.bg-white.shadow.p-30
+            figure.main.rounded.overlay.overlay1.mb-20
+              a href="#{gallery_path(category.to_sym)}"
+                img src="/assets/art/#{category}/main.jpg" alt=""
+              figcaption
+                h5.text-uppercase.from-top.mb-0 See Gallery
+            h4.mb-0
+              =t ".categories.#{category}"

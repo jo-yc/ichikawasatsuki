@@ -1,0 +1,26 @@
+ja:
+  gallery:
+    index:
+      title: Satsuki Ichikawa's galleries
+      sub_title: Wedding, Fashion, Event Photographer
+      categories:
+        families: ファミリー
+        weddings: ウェディング
+        couples: カップル
+        fashion: ファッション
+        events: イベント
+        portraits: ポートレート
+        children: 子供
+        foods: フード
+        sports: スポーツ
+    show:
+      categories:
+        families: ファミリー
+        weddings: ウェディング
+        couples: カップル
+        fashion: ファッション
+        events: イベント
+        portraits: ポートレート
+        children: 子供
+        foods: フード
+        sports: スポーツ
