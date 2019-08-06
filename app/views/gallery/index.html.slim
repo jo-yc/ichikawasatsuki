@@ -1,0 +1,19 @@
+.wrapper.light-wrapper
+  .container.inner.pt-70
+    h1.heading.text-center
+      =t '.title'
+    h2.sub-heading2.text-center
+      =t '.sub_title'
+    .space50
+    .tiles.grid
+      .items.row.isotope.boxed.grid-view.text-center
+        - GALLERY_CATEGORIES.each do |category|
+          .item.grid-sizer.col-md-6.col-lg-4
+            .box.bg-white.shadow.p-30
+              figure.main.polaroid.overlay.overlay1
+                a href="#{gallery_path(category.to_sym)}"
+                  img src="/assets/art/#{category}/main.jpg" alt=""
+                figcaption
+                  h5.text-uppercase.from-top.mb-0 See Gallery
+              h4.text-uppercase.mb-0
+                =t ".categories.#{category}"
