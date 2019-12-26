@@ -8,4 +8,4 @@ en:
           date: The date when you want to take photos.
           place: A place where you want to take photos.
           message: please type your message here.
-        privacy_policy: I agree to this website's <a href="javascript:void(0)">privacy policy</a>
+        privacy_policy: I agree to this website's <a href="%{url}" target="_blank">privacy policy</a>

@@ -8,5 +8,7 @@ Rails.application.routes.draw do
   end
   resources :gallery, controller: :gallery, only: [:index, :show]
 
+  resource :policy, controller: :policy, only: :show
+
   mount LetterOpenerWeb::Engine, at: "/letter_opener" if Rails.env.development?
 end
