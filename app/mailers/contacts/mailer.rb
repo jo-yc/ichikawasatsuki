@@ -5,7 +5,7 @@ class Contacts::Mailer < ApplicationMailer
     mail(
       subject: '[ichikawasatsuki.com] お問い合わせが届いています。',
       return_path: '市川五月 Official Site <no-reply@ichikawasatsuki.com>',
-      to: ENV['MAIL_ADRESS']
+      to: ENV['DEFAULT_MAIL_ADRESS']
     )
   end
 end
