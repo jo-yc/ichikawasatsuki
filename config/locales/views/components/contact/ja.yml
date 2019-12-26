@@ -8,4 +8,4 @@ ja:
           date: 撮影日を入力してください
           place: 撮影予定場所を入力してください
           message: メッセージを入力してください
-        privacy_policy: <a href="javascript:void(0)">プライバシーポリシー</a>が適用されます
+        privacy_policy: <a href="%{url}" target="_blank">プライバシーポリシー</a>が適用されます

@@ -27,7 +27,7 @@ template#contact-component
             .custom-control.custom-checkbox
               input#privacyPolicy.custom-control-input v-validate="'required'" data-vv-name="privacyPolicy" v-model="privacyPolicy" type="checkbox"
               label.custom-control-label :class="{'form-danger': errors.has('privacyPolicy')}" for="privacyPolicy"
-                = t('.privacy_policy').html_safe
+                = t('.privacy_policy', url: policy_path).html_safe
         .space20
         .col-12 v-if="notice"
           .alert.alert-success role="alert"
