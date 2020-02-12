@@ -1,8 +1,8 @@
 en:
   contact:
     show:
-      title: Get in Touch
-      description: Enter your name, email, desired date and time, shooting details, scheduled shooting location, and a message to the photographer, then click on the SUBMIT button.
+      title: CONTACT
+      description: ''
       btn:
         default_message: SUBMIT
         processing_message: Sending...
