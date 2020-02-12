@@ -2,7 +2,9 @@ ja:
   common:
     header:
       menu:
-        home: ホーム
+        home: HOME
         about: ABOUT
         gallery: GALLERY
-        contact: お問い合わせ
+        works: WORKS
+        blog: BLOG
+        contact: CONTACT
