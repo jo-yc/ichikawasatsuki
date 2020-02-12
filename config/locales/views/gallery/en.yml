@@ -4,23 +4,21 @@ en:
       title: Gallery
       sub_title: ''
       categories:
-        families: Families
-        weddings: Weddings
-        couples: Couples
-        fashion: Fashion
-        events: Events
-        portraits: Portraits
-        children: Children
-        foods: Foods
-        sports: Sports
+        wedding: Wedding&Engage
+        family: Family
+        maternity: Maternity
+        new_born: New born
+        profile: Profile
+        business: Business portrait
+        event: Event
+        etc: Etc
     show:
       categories:
-        families: Families
-        weddings: Weddings
-        couples: Couples
-        fashion: Fashion
-        events: Events
-        portraits: Portraits
-        children: Children
-        foods: Foods
-        sports: Sports
+        wedding: Wedding&Engage
+        family: Family
+        maternity: Maternity
+        new_born: New born
+        profile: Profile
+        business: Business portrait
+        event: Event
+        etc: Etc

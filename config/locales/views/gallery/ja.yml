@@ -4,23 +4,21 @@ ja:
       title: Gallery
       sub_title: ''
       categories:
-        families: ファミリー
-        weddings: ウェディング
-        couples: カップル
-        fashion: ファッション
-        events: イベント
-        portraits: ポートレート
-        children: 子供
-        foods: フード
-        sports: スポーツ
+        wedding: ウェディング・エンゲージメント
+        family: ファミリー
+        maternity: マタニティ
+        new_born: ニューボーン
+        profile: プロフィール
+        business: ビジネスポートレート
+        event: イベント・公演
+        etc: その他
     show:
       categories:
-        families: ファミリー
-        weddings: ウェディング
-        couples: カップル
-        fashion: ファッション
-        events: イベント
-        portraits: ポートレート
-        children: 子供
-        foods: フード
-        sports: スポーツ
+        wedding: ウェディング・エンゲージメント
+        family: ファミリー
+        maternity: マタニティ
+        new_born: ニューボーン
+        profile: プロフィール
+        business: ビジネスポートレート
+        event: イベント・公演
+        etc: その他

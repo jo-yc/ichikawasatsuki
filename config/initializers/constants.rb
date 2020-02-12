@@ -1,1 +1,1 @@
-GALLERY_CATEGORIES = ['families', 'weddings', 'couples', 'fashion', 'events', 'portraits', 'children', 'foods', 'sports']
+GALLERY_CATEGORIES = ['wedding', 'family', 'maternity', 'new_born', 'profile', 'business', 'event', 'etc']

@@ -30,26 +30,15 @@ class ContactForm
     false
   end
 
-  def self.shooting_items
-    {
-      wedding: display_item(:wedding),
-      family: display_item(:family),
-      maternity: display_item(:maternity),
-      new_born: display_item(:new_born),
-      profile: display_item(:profile),
-      business: display_item(:business),
-      event: display_item(:event),
-      etc: display_item(:etc)
-    }
+  class << self
+    def shooting_items
+      GALLERY_CATEGORIES.map { |cat| [cat, I18n.t("views.common.shooting_items.#{cat.to_sym}")] }.to_h
+    end
   end
 
   private
 
   def send_contact
     ::Contacts::Mailer.send_contact(self).deliver
-  end
-
-  def self.display_item(txt)
-    I18n.t("views.common.shooting_items.#{txt}")
   end
 end
