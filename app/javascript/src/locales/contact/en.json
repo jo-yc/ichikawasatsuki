@@ -1,0 +1,18 @@
+{
+  "shootingTypes": {
+    "wedding": "Wedding&Engage",
+    "family": "Family",
+    "maternity": "Maternity",
+    "new_born": "New born",
+    "profile": "Profile",
+    "business": "Business portrait",
+    "event": "Event&Concert",
+    "etc": "Etc"
+  },
+  "privacyPolicy": {
+    "message": "I agree to this website's <a href='/privacy_policy' target='_blank'>privacy policy</a>"
+  },
+  "buttons": {
+    "submit": "SUBMIT"
+  }
+}

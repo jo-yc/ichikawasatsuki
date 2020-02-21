@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title
+      | 市川五月's official site
+    = csrf_meta_tags
+    = csp_meta_tag
+
+    link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet"
+    = javascript_include_tag 'missio_js'
+    = stylesheet_pack_tag 'application'
+  body
+    #app
+    = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'

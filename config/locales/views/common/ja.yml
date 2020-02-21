@@ -1,0 +1,13 @@
+ja:
+  views:
+    common:
+      sent_a_message: お問い合わせを送信しました。
+      shooting_types:
+        wedding: ウェディング・エンゲージメント
+        family: ファミリー
+        maternity: マタニティ
+        new_born: ニューボーン
+        profile: プロフィール
+        business: ビジネスポートレート
+        event: イベント・公演
+        etc: その他

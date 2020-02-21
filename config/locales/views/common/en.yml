@@ -1,0 +1,13 @@
+en:
+  views:
+    common:
+      sent_a_message: Your inquiry has been successfully sent!
+      shooting_types:
+        wedding: Wedding&Engage
+        family: Family
+        maternity: Maternity
+        new_born: New born
+        profile: Profile
+        business: Business portrait
+        event: Event&Concert
+        etc: Etc

@@ -1,0 +1,14 @@
+p
+  = "名前：#{@contact.name}"
+p
+  = "メールアドレス：#{@contact.email}"
+p
+  = "日程：#{Time.zone.parse(@contact.date).strftime('%Y年%m月%d日%H時%M分')}"
+p
+  = "撮影内容：#{@contact.shooting_types.map { |item| I18n.t("views.common.shooting_types.#{item}") }.join('、')}"
+p
+  = "撮影予定場所：#{@contact.place}"
+p
+  | メッセージ：
+p
+  = @contact.message.gsub(/\n/, '<br>').html_safe

@@ -1,0 +1,79 @@
+{
+  "placeholder": {
+    "name": "Your name",
+    "email": "Your email",
+    "date": "The date when you want to take photos.",
+    "place": "A place where you want to take photos.",
+    "message": "please type your message here."
+  },
+  "fields": {
+    "name": "Name",
+    "email": "E-mail",
+    "date": "Date",
+    "shootingTypes": "Shooting type",
+    "place": "Place",
+    "message": "Message",
+    "privacyPolicy": "Privacy policy"
+  },
+  "validations": {
+    "alpha": "The {_field_} field may only contain alphabetic characters",
+    "alpha_num": "The {_field_} field may only contain alpha-numeric characters",
+    "alpha_dash": "The {_field_} field may contain alpha-numeric characters as well as dashes and underscores",
+    "alpha_spaces": "The {_field_} field may only contain alphabetic characters as well as spaces",
+    "between": "The {_field_} field must be between {min} and {max}",
+    "confirmed": "The {_field_} field confirmation does not match",
+    "digits": "The {_field_} field must be numeric and exactly contain {length} digits",
+    "dimensions": "The {_field_} field must be {width} pixels by {height} pixels",
+    "email": "The {_field_} field must be a valid email",
+    "excluded": "The {_field_} field is not a valid value",
+    "ext": "The {_field_} field is not a valid file",
+    "image": "The {_field_} field must be an image",
+    "integer": "The {_field_} field must be an integer",
+    "length": "The {_field_} field must be {length} long",
+    "max_value": "The {_field_} field must be {max} or less",
+    "max": "The {_field_} field may not be greater than {length} characters",
+    "mimes": "The {_field_} field must have a valid file type",
+    "min_value": "The {_field_} field must be {min} or more",
+    "min": "The {_field_} field must be at least {length} characters",
+    "numeric": "The {_field_} field may only contain numeric characters",
+    "oneOf": "The {_field_} field is not a valid value",
+    "regex": "The {_field_} field format is invalid",
+    "required_if": "The {_field_} field is required",
+    "required": "The {_field_} field is required",
+    "size": "The {_field_} field size must be less than {size}KB"
+  },
+  "shootingTypes": {
+    "wedding": "Wedding&Engage",
+    "family": "Family",
+    "maternity": "Maternity",
+    "new_born": "New born",
+    "profile": "Profile",
+    "business": "Business portrait",
+    "event": "Event&Concert",
+    "etc": "Etc"
+  },
+  "privacyPolicy": {
+    "message": "I agree to this website's <a href='/policy' target='_blank'>privacy policy</a>",
+    "title": "Privacy policy",
+    "policy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lacinia blandit nunc quis vehicula. Maecenas id nulla convallis, finibus arcu quis, tristique massa. Aenean eros diam, mattis sed tristique nec, blandit et ligula. Etiam vehicula arcu et purus porttitor laoreet. Mauris egestas nisi eget lacus rutrum hendrerit. Etiam posuere dui sed est sollicitudin mollis sed elementum neque. Quisque at venenatis nisl. Proin et enim lectus. Integer eu dictum ligula, eget congue nibh.\nIn aliquam nibh purus, ut faucibus mauris commodo vitae. Suspendisse massa augue, interdum nec felis eu, pellentesque laoreet nunc. Proin placerat nisi et nunc suscipit condimentum. In a consequat odio. Proin et ipsum non augue finibus scelerisque sed nec nulla. Curabitur vitae dolor sit amet nulla accumsan congue cursus vel libero. Maecenas tempus, ligula ut blandit lobortis, ex turpis molestie augue, id dictum nunc diam ut sem. Donec egestas malesuada ante et tincidunt. Integer eget hendrerit lacus. Vivamus nec libero nisl. Proin porta lectus mi, vitae sodales sapien venenatis quis. Maecenas ac ligula id nulla euismod tempor et scelerisque diam. Ut hendrerit purus dolor, sit amet tincidunt felis tincidunt eget. Integer molestie metus et sem fermentum malesuada. Nunc euismod metus neque. Nam ultricies nulla vitae faucibus bibendum.\nNulla imperdiet laoreet mauris sit amet ultricies. Nam sit amet ultrices nulla, sit amet mollis augue. Nunc feugiat, velit eget tempor efficitur, mauris purus mattis felis, eget scelerisque lorem urna quis magna. Vivamus scelerisque ultrices mauris ut viverra. Praesent non enim diam. Nam tincidunt posuere pretium. Curabitur diam tellus, fringilla quis elementum quis, porttitor venenatis lacus. Integer euismod mauris non nisl maximus pulvinar. Donec rutrum fermentum arcu, sit amet vulputate metus mattis at. Praesent congue ipsum et tortor pretium accumsan. Etiam volutpat mauris convallis efficitur efficitur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.\nFusce non ornare ligula, sit amet efficitur sem. Nam sed lobortis eros, ac posuere erat. Suspendisse potenti. Donec tellus augue, aliquet quis porttitor a, vestibulum sit amet nisi. Nunc faucibus turpis eget magna dignissim elementum. Vivamus sodales lorem ullamcorper magna fringilla pellentesque. Suspendisse mattis urna orci, ut rhoncus magna congue sed. Nulla pellentesque lectus vitae magna consequat semper. Ut facilisis ante vitae leo congue tincidunt. Curabitur vestibulum bibendum velit, id dignissim nulla vehicula in. Sed ac erat porta, mollis ligula vitae, tempus orci. Nullam sed arcu quis libero eleifend tincidunt eget id orci.\nMaecenas posuere nisi volutpat, dapibus sapien eu, placerat nibh. Aenean nunc neque, porta sed tempor sed, scelerisque sed odio. Phasellus porta sit amet lorem sed finibus. Pellentesque massa dolor, egestas eu varius sit amet, aliquam at tortor. Ut hendrerit tristique semper. Morbi accumsan erat vitae mi maximus suscipit. In at urna ut massa finibus porttitor. Suspendisse magna eros, efficitur at tortor et, efficitur rhoncus erat. Morbi at eros finibus, feugiat justo vitae, rhoncus lorem. Ut pellentesque, nisl eu eleifend mollis, ipsum diam venenatis ipsum, porttitor varius sem dolor ut augue. Quisque suscipit, tellus eget tristique tempor, eros tellus facilisis lectus, eu tincidunt diam odio luctus tellus. Sed eget suscipit erat."
+
+  },
+  "buttons": {
+    "defaultMsg": "SUBMIT",
+    "processingMsg": "Sending...",
+    "sentMsg": "Thank you!",
+    "errorMsg": "Failed..."
+  },
+  "contact": {
+    "title": "CONTACT",
+    "description": ""
+  },
+  "menu": {
+    "home": "HOME",
+    "about": "ABOUT",
+    "gallery": "GALLERY",
+    "works": "WORKS",
+    "blog": "BLOG",
+    "contact": "CONTACT"
+  }
+}

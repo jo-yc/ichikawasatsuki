@@ -1,0 +1,16 @@
+//= require jquery.min.js
+//= require popper.min.js
+//= require bootstrap.min.js
+//= require jquery.themepunch.tools.min.js
+//= require jquery.themepunch.revolution.min.js
+//= require revolution.extension.actions.min.js
+//= require revolution.extension.carousel.min.js
+//= require revolution.extension.kenburn.min.js
+//= require revolution.extension.layeranimation.min.js
+//= require revolution.extension.migration.min.js
+//= require revolution.extension.navigation.min.js
+//= require revolution.extension.parallax.min.js
+//= require revolution.extension.slideanims.min.js
+//= require revolution.extension.video.min.js
+//= require plugins.js
+//= require scripts.js
