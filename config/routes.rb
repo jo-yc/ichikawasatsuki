@@ -3,7 +3,8 @@ Rails.application.routes.draw do
   # get '/*path', to: 'vue_application#index'
 
   resource :about, only: :show, to: 'vue_application#index'
-  resources :gallery, only: %i[index show], to: 'vue_application#index'
+  resource :gallery, only: %i[show], to: 'vue_application#index'
+  resources :works, only: %i[index show], to: 'vue_application#index'
   resource :contact, only: :show, to: 'vue_application#index'
   resource :policy, controller: :policy, only: :show, to: 'vue_application#index'
 

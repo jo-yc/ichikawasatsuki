@@ -6,10 +6,10 @@
           .item.grid-sizer.col-md-6.col-lg-4(v-for="(c_val, c_key) in $t('shootingTypes')")
             .box.bg-white.shadow.p-30
               figure.main.polaroid.overlay.overlay1
-                a(:href="'/gallery/' + c_key")
+                a(:href="'/works/' + c_key")
                   img(:src="imgPath(c_key)" alt="")
                 figcaption
-                  h5.text-uppercase.from-top.mb-0 See Gallery
+                  h5.text-uppercase.from-top.mb-0 See Works
               h4.text-uppercase.mb-0
                 | {{ c_val }}
 </template>

@@ -19,7 +19,7 @@
             a.nav-link(href="/gallery")
               | {{ $t('menu.gallery') }}
           li.nav-item
-            a.nav-link(href="javascript:void(0)")
+            a.nav-link(href="/works")
               | {{ $t('menu.works') }}
           li.nav-item
             a.nav-link(href="http://blog.ichikawasatsuki.com" target="blank")
