@@ -1,6 +1,7 @@
 import About from '../pages/About'
-import GalleryList from '../pages/GalleryList'
 import Gallery from '../pages/Gallery'
+import WorkList from '../pages/WorkList'
+import Work from '../pages/Work'
 import Contact from '../pages/Contact'
 import Policy from '../pages/Policy'
 
@@ -12,13 +13,18 @@ export default [
   },
   {
     path: '/gallery',
-    component: GalleryList,
-    name: 'gallery_list'
-  },
-  {
-    path: '/gallery/:id',
     component: Gallery,
     name: 'gallery'
+  },
+  {
+    path: '/works',
+    component: WorkList,
+    name: 'work_list'
+  },
+  {
+    path: '/works/:id',
+    component: Work,
+    name: 'work'
   },
   {
     path: '/contact',

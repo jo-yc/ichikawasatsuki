@@ -75,5 +75,8 @@
     "works": "WORKS",
     "blog": "BLOG",
     "contact": "CONTACT"
+  },
+  "gallery": {
+    "description": "Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna."
   }
 }
