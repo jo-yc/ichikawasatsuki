@@ -22,6 +22,9 @@
             a.nav-link(href="/works")
               | {{ $t('menu.works') }}
           li.nav-item
+            a.nav-link(href="/books")
+              | {{ $t('menu.books') }}
+          li.nav-item
             a.nav-link(href="http://blog.ichikawasatsuki.com" target="blank")
               | {{ $t('menu.blog') }}
           li.nav-item
