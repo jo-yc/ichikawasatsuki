@@ -2,6 +2,7 @@ import About from '../pages/About'
 import Gallery from '../pages/Gallery'
 import WorkList from '../pages/WorkList'
 import Work from '../pages/Work'
+import Books from '../pages/Books'
 import Contact from '../pages/Contact'
 import Policy from '../pages/Policy'
 
@@ -25,6 +26,11 @@ export default [
     path: '/works/:id',
     component: Work,
     name: 'work'
+  },
+  {
+    path: '/books',
+    component: Books,
+    name: 'books'
   },
   {
     path: '/contact',
