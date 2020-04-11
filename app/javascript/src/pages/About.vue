@@ -17,13 +17,13 @@
                         p Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus.
                         ul.social.social-color
                           li
-                            a(href="javascript:void(0)")
+                            a(href="https://twitter.com/ichikawasatsuki")
                               i.fa.fa-twitter
                           li
-                            a(href="javascript:void(0)")
+                            a(href="https://www.facebook.com/satsukiichikawa.photography")
                               i.fa.fa-facebook
                           li
-                            a(href="javascript:void(0)")
+                            a(href="https://www.instagram.com/satsukiichikawa")
                               i.fa.fa-instagram
     .wrapper.light-wrapper
       .container.inner

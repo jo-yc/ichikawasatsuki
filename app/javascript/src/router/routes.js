@@ -1,3 +1,4 @@
+import Home from '../pages/Home'
 import About from '../pages/About'
 import Gallery from '../pages/Gallery'
 import WorkList from '../pages/WorkList'
@@ -7,6 +8,11 @@ import Contact from '../pages/Contact'
 import Policy from '../pages/Policy'
 
 export default [
+  {
+    path: '/',
+    component: Home,
+    name: 'home'
+  },
   {
     path: '/about',
     component: About,
