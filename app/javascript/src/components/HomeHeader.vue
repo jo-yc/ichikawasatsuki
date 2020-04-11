@@ -1,6 +1,6 @@
 <template lang="pug">
-  nav.navbar.center.navbar-expand-lg
-    .container.flex-lg-column
+  nav.navbar.wide.transparent.transparent-light.absolute.navbar-expand-lg
+    .container-fluid.flex-row.justify-content-center
       .navbar-header
         .navbar-brand
           a(href="/")
@@ -8,8 +8,8 @@
         .navbar-hamburger.ml-auto.d-lg-none.d-xl-none
           button.hamburger.animate(data-toggle="collapse" data-target=".navbar-collapse")
             span
-      .navbar-collapse.collapse.w-100.bg-light.header
-        ul.navbar-nav.nav-fill.w-100
+      .navbar-collapse.collapse.justify-content-between.align-items-center
+        ul.navbar-nav.plain.mx-auto.text-center
           li.nav-item
             a.nav-link(href="/")
               | {{ $t('menu.home') }}
@@ -31,4 +31,15 @@
           li.nav-item
             a.nav-link(href="/contact")
               | {{ $t('menu.contact') }}
+      .social-wrapper.text-right
+        ul.social.social-mute.social-s.mb-0
+          li
+            a(href="https://twitter.com/ichikawasatsuki")
+              i.fa.fa-twitter
+          li
+            a(href="https://www.facebook.com/satsukiichikawa.photography")
+              i.fa.fa-facebook-f
+          li
+            a(href="https://www.instagram.com/satsukiichikawa")
+              i.fa.fa-instagram
 </template>
