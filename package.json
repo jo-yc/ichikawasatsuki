@@ -11,7 +11,7 @@
     "@rails/webpacker": "4.2.2",
     "fs": "^0.0.1-security",
     "headhesive": "^1.2.4",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "luxon": "^1.22.0",
     "picturefill": "^3.0.3",
     "pug": "^2.0.4",
