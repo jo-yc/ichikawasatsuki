@@ -1,0 +1,1 @@
+IchikawaSatsuki.create!

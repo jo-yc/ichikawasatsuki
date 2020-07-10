@@ -64,3 +64,5 @@ group :development do
   gem 'pry-remote'
   gem 'letter_opener_web'
 end
+
+gem 'foreman'

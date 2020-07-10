@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ichikawa_satsuki: one
+  title: MyString
+  sub_title: MyText
+  body: MyText
+  image_url: MyText
+
+two:
+  ichikawa_satsuki: two
+  title: MyString
+  sub_title: MyText
+  body: MyText
+  image_url: MyText

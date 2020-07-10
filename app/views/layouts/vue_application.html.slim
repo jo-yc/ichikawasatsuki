@@ -1,8 +1,13 @@
 doctype html
 html
   head
-    title
-      | 市川五月's official site
+    meta http-equiv="content-language" content=I18n.locale
+    script(
+      name="config"
+      data-env=Rails.env
+      data-locale=I18n.locale
+    )
+    title 写真家 市川五月
     = csrf_meta_tags
     = csp_meta_tag
 

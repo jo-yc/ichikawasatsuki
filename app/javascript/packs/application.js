@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import App from '../app'
 
+// Vuex
+import store from '../src/store'
+
 // Styles
 import '../src/assets/stylesheets/application'
 
@@ -8,10 +11,10 @@ import '../src/assets/stylesheets/application'
 import router from '../src/router/index'
 
 // Vue i18n
-import i18n from '../src/locales/index';
+import i18n from '../src/locales/index'
 
 // Validator
-import '../src/lib/validator';
+import '../src/lib/validator'
 
 // HTTP Requests/Response
 import VueResource from 'vue-resource/dist/vue-resource.min'
@@ -28,6 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     template: '<App/>',
     render: h => h(App),
     router: router,
+    store,
     i18n
   }).$mount('#app')
 })
